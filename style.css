@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 /* naivigation section */
 .heading {
@@ -23,8 +27,77 @@ li,
 a {
   text-decoration: none;
   list-style: none;
-  padding-left: 20px;
+  padding-left: 15px;
   font-size: 20px;
   color: #3a3a3a;
   margin-right: 30px;
+}
+/* -----------------
+journey as influencer 
+--------------------*/
+.influencer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 146px;
+  font-size: ;
+}
+.influ-heading {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+.influencer-description {
+  width: 570px;
+  height: 270px;
+  margin-left: 120px;
+  font-size: 20px;
+}
+.click-button {
+  background-color: #e02c6d;
+  margin-top: 15px;
+  padding: 15px 20px;
+  outline: 0;
+  border: 0;
+  background-image: linear-gradient(90deg, #c21273, #ff008e);
+  border-radius: 5px;
+  box-shadow: 0, 7px, 0, #a5075e;
+  position: relative;
+  top: 0;
+  color: white;
+}
+.click-button a {
+  color: white;
+}
+.click-button:hover {
+  cursor: pointer;
+  top: 5px;
+  box-shadow: 0, 2px, 0, #a5075e;
+}
+.influ {
+  color: #e02c6d;
+}
+.cemera img {
+  width: 440px;
+  height: 414px;
+  margin-right: 400px;
+}
+
+/* -------------
+logos section
+----------- */
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+.logos-part {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.logo {
+  padding: 70px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
 }
