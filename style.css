@@ -51,6 +51,27 @@ journey as influencer
   margin-left: 120px;
   font-size: 20px;
 }
+.heading-animation {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .click-button {
   background-color: #e02c6d;
   margin-top: 15px;
@@ -108,6 +129,8 @@ popular collection section
   text-align: center;
   font-size: 30px;
   padding: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 .collection-items {
   display: grid;
@@ -138,7 +161,7 @@ popular collection section
   margin-top: 35px;
   margin-bottom: 35px;
   align-items: flex-end;
-  padding-left: 1400px;
+  padding-left: 1500px;
   color: #ff008e;
   font-size: 20px;
 }
@@ -149,6 +172,7 @@ contact area section
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 .contact-head {
   text-align: center;
@@ -180,4 +204,25 @@ contact area section
 .form-button {
   margin-left: 150px;
   width: 250px;
+}
+
+/* ----------------------
+footer area section
+----------------------- */
+.copyright-part {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  height: 250px;
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+}
+.copyright-content {
+  padding: 30px;
+}
+.social-links {
+  color: white;
+  margin-top: 45px;
 }
