@@ -112,12 +112,9 @@ popular collection section
 .collection-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  column-gap: 30px;
+  row-gap: 30px;
   margin-left: 120px;
-  margin-right: 120px;
 }
 .collections {
   box-shadow: 10px 20px 40px gray;
@@ -127,6 +124,9 @@ popular collection section
   height: 476px;
   justify-content: center;
   align-items: center;
+}
+.price {
+  font-size: 25px;
 }
 .star-icon {
   color: Orange;
@@ -141,4 +141,43 @@ popular collection section
   padding-left: 1400px;
   color: #ff008e;
   font-size: 20px;
+}
+/* ----------------------
+contact area section
+----------------------- */
+.contact-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-head {
+  text-align: center;
+  padding-right: 350px;
+  font-size: 35px;
+}
+.contact-part {
+  width: 50%;
+  margin-left: 250px;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1f;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+}
+.form-content {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ff008e;
+  border-radius: 5px;
+  padding: 10px;
+}
+.contact-img {
+  width: 50%;
+  margin-left: 80px;
+}
+.form-button {
+  margin-left: 150px;
+  width: 250px;
 }
